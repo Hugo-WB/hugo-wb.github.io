@@ -6,6 +6,7 @@ export default class About extends Component {
             <div>
                 <h1 className = "title">About me</h1>
                 <p className = "has-text-left">I am a 1st Year computer science student at the University Of Warwick.</p>
+
             </div>
         )
     }

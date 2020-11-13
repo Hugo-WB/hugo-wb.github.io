@@ -103,10 +103,9 @@ export default function Home({}: Props): ReactElement {
       </Segment>
 
       {/* PROJECTS */}
-      <div ref={projectRef}/>
-      <Segment textAlign="center">
+      <div className = "projectsContainer" ref={projectRef}>
         <Projects />
-      </Segment>
+      </div>
 
 
       {/* Contact Me */}

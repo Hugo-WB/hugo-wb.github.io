@@ -4,7 +4,8 @@
   "h h h h r"
   "a a a a a"
   "p p p p p"
-  "f f f f f"
+  "f f f f f";
+  background-color: #f8f8f8;
 }
 #nameSegment{
   height:120vh;
@@ -68,4 +69,8 @@
 .navItem:hover{
   cursor:pointer;
   transform: translate(-8px,0px)
+}
+.projectsContainer{
+  grid-area:p;
+
 }

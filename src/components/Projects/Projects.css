@@ -6,6 +6,21 @@
   display:flex;
   flex-direction: column;
   justify-content:start;
-  border-bottom: 2px solid #282832;
-  border-left: 2px solid #282832;
+  text-align:left;
+  align-content: center;
+  box-shadow: 2px 2px #282832;
+  background-color: #ffffff;
+  border-radius:5px;
+  max-width: 300px;
+  font-family: Poppins;
+}
+.cardContainer h2{
+  font-family:Poppins;
+}
+.cardContainer img{
+  display:block;
+  max-width: 300px;
+  max-height:200px;
+  width: auto;
+  height: auto;
 }

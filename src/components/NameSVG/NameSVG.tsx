@@ -1,6 +1,7 @@
 import React, { ReactElement,useEffect } from "react";
 import anime from 'animejs';
 
+import "./NameSVG.css"
 
 interface Props {}
 

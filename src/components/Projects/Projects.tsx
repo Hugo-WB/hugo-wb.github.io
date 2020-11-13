@@ -14,7 +14,7 @@ export default function Projects({}: Props): ReactElement {
     <ProjectCard project = {project}/>
   ))
   return (
-    <div className = "projectsContainer">
+    <div className = "projectsGrid">
       {projectCards}
     </div>
   )

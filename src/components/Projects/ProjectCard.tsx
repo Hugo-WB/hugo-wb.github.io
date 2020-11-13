@@ -9,7 +9,7 @@ interface Props {
 
 export default function ProjectCard(props: Props): ReactElement {
   return (
-    <div className="cardContainer">
+    <div className="cardContainer" onClick = {()=> window.open(props.project.url,"_blank")}>
       <img src={props.project.imageUrl} alt = {props.project.name + "image"}/>
       <h2>
         {props.project.name}

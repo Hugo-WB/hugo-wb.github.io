@@ -43,6 +43,17 @@
 .contact{
   grid-area:f;
 }
+.contact svg {
+  fill: white;
+  max-height: 70px;
+  width:auto;
+  padding:4px 0px;
+  transition: all 0.4s ease-out;
+}
+.contact svg:hover{
+  transform:translateY(-6px);
+
+}
 .stickyTop{
   position:fixed;
   top:5px;

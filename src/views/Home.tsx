@@ -94,13 +94,12 @@ export default function Home({}: Props): ReactElement {
       </Segment>
 
       {/* ABOUT ME */}
-      <div ref={aboutMeRef}></div>
-      <Segment textAlign="center" id="aboutMe">
+      <div className="aboutMe" ref={aboutMeRef}>
         <Header as="h2">About Me</Header>
         <Header as="p">
           I am a 1st year Computer Science Student at the University Of Warwick
         </Header>
-      </Segment>
+      </div>
 
       {/* PROJECTS */}
       <div className = "projectsContainer" ref={projectRef}>

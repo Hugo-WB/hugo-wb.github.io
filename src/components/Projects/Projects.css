@@ -1,6 +1,13 @@
-.container{
+.projectsContainer{
   display:grid;
-  
+  margin: 2vh 1vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap:20px;
+  width:100%;
+  grid-auto-flow: row;
+  justify-items: stretch;
+  text-align: center;
+  align-items: center;
 }
 .cardContainer{
   display:flex;
@@ -8,11 +15,17 @@
   justify-content:start;
   text-align:left;
   align-content: center;
-  box-shadow: 2px 2px #282832;
+  /* box-shadow: 4px 4px #8f8f8f; */
+  border-radius: 5px;
   background-color: #ffffff;
-  border-radius:5px;
-  max-width: 300px;
+  max-width: 400px;
   font-family: Poppins;
+  padding: 14px 14px;
+  transition: all 0.2s ease-out;
+}
+.cardContainer:hover{
+  cursor:pointer;
+  transform: translate(0px,-15px)
 }
 .cardContainer h2{
   font-family:Poppins;
@@ -23,4 +36,8 @@
   max-height:200px;
   width: auto;
   height: auto;
+}
+.cardContainer > *{
+  color: black;
+  margin: 5px 8px;
 }

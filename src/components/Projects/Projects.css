@@ -1,0 +1,11 @@
+.container{
+  display:grid;
+  
+}
+.cardContainer{
+  display:flex;
+  flex-direction: column;
+  justify-content:start;
+  border-bottom: 2px solid #282832;
+  border-left: 2px solid #282832;
+}

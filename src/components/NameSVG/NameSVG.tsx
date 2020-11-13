@@ -15,8 +15,7 @@ export default function NameSVG({}: Props): ReactElement {
         return i * 100;
       },
     })
-
-  })
+  },[])
   return (
     <div className = "logoDiv">
       <svg
@@ -26,7 +25,7 @@ export default function NameSVG({}: Props): ReactElement {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className = "logoSVG" 
-        // style={{borderBottom:"2px solid white",paddingBottom:"5px"}}
+        style={{padding:"5px"}}
       >
         <path
           d="M53.552 6.128V73.04H44.816V42.704H10.736V73.04H2V6.128H10.736V35.504H44.816V6.128H53.552Z"

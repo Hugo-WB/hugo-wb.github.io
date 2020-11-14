@@ -148,7 +148,9 @@ export default function Home({}: Props): ReactElement {
             </a>
           </Grid.Column>
           <Grid.Column textAlign="center">
-            <Mail />
+            <a href="mailto:wongberard.hugo@gmail.com" target="_blank">
+              <Mail />
+            </a>
           </Grid.Column>
         </Grid>
       </Segment>

@@ -14,15 +14,21 @@ const initialState: project[]=[
     url:"https://hugo-wb.github.io/meal-planner",
     description: "Meal planner"
   },
+  // {
+  //   name: "Gradient Descent Visualization",
+  //   imageUrl: "https://i.ibb.co/B6jX0HM/gradient-descent-visual.png",
+  //   url:"https://hugo-wb.github.io/linear-regression-visualization/",
+  //   description:"Gradient Descent Cost function visualization app"
+  // },
   {
-    name: "Gradient Descent Visualization",
-    imageUrl: "https://i.ibb.co/B6jX0HM/gradient-descent-visual.png",
-    url:"https://hugo-wb.github.io/linear-regression-visualization/",
-    description:"Gradient Descent Cost function visualization app"
+    name: "Bivariate gradient descent",
+    imageUrl: "https://raw.githubusercontent.com/Hugo-WB/bivariate-gradient-descent/main/images/3DGraph.png",
+    url:"https://hugo-wb.github.io/bivariate-gradient-descent/",
+    description:"Uses gradient descent to perform regression of any bi-variate function on a 2D data set."
   },
   {
     name: "Sudoku Solver",
-    imageUrl: "https://i.ibb.co/jZQ0tRy/sudoku.png",
+    imageUrl: "https://raw.githubusercontent.com/Hugo-WB/sudoku-solver/master/images/screenshot.png",
     url: "https://hugo-wb.github.io/sudoku-solver/",
     description: "Sudoku solver using backtacking"
   }

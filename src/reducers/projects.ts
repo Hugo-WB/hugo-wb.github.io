@@ -8,12 +8,12 @@ interface project {
   description: string,
 }
 const initialState: project[]=[
-  {
-    name:"ChessDB",
-    imageUrl:"https://i.imgur.com/i6pWwCD.png",
-    url:"https://github.com/Hugo-WB/ChessDB",
-    description:"GraphQL API for chess games, containing over 300,000 games"
-  },
+  // {
+  //   name:"ChessDB",
+  //   imageUrl:"https://i.imgur.com/i6pWwCD.png",
+  //   url:"https://github.com/Hugo-WB/ChessDB",
+  //   description:"GraphQL API for chess games, containing over 300,000 games"
+  // },
   {
     name: "Meal-Planner",
     imageUrl:"https://i.imgur.com/ZLuS882.png",

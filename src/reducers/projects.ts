@@ -8,24 +8,18 @@ interface project {
   description: string,
 }
 const initialState: project[]=[
-  // {
-  //   name:"ChessDB",
-  //   imageUrl:"https://i.imgur.com/i6pWwCD.png",
-  //   url:"https://github.com/Hugo-WB/ChessDB",
-  //   description:"GraphQL API for chess games, containing over 300,000 games"
-  // },
+  {
+    name:"ChessDB",
+    imageUrl:"https://i.imgur.com/QNhHKP7.png",
+    url:"https://github.com/Hugo-WB/ChessDB",
+    description:"GraphQL API for chess games, containing over 300,000 games"
+  },
   {
     name: "Meal-Planner",
     imageUrl:"https://i.imgur.com/ZLuS882.png",
     url:"https://hugo-wb.github.io/meal-planner",
     description: "Meal planner"
   },
-  // {
-  //   name: "Gradient Descent Visualization",
-  //   imageUrl: "https://i.ibb.co/B6jX0HM/gradient-descent-visual.png",
-  //   url:"https://hugo-wb.github.io/linear-regression-visualization/",
-  //   description:"Gradient Descent Cost function visualization app"
-  // },
   {
     name: "Bivariate gradient descent",
     imageUrl: "https://raw.githubusercontent.com/Hugo-WB/bivariate-gradient-descent/main/images/3DGraph.png",
@@ -38,6 +32,12 @@ const initialState: project[]=[
     url: "https://hugo-wb.github.io/sudoku-solver/",
     description: "Sudoku solver using backtacking"
   },
+  // {
+  //   name: "Gradient Descent Visualization",
+  //   imageUrl: "https://i.ibb.co/B6jX0HM/gradient-descent-visual.png",
+  //   url:"https://hugo-wb.github.io/linear-regression-visualization/",
+  //   description:"Gradient Descent Cost function visualization app"
+  // },
 ]
 
 

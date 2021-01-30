@@ -4,6 +4,7 @@
   grid-template-columns: repeat(auto-fill, 400px);
   gap: 20px;
   width: 100%;
+  max-width: 1400px;
   text-align: center;
   align-items: stretch;
   justify-content: center;
